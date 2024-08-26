@@ -1,4 +1,7 @@
 files
-jj
 __pycache__
 .venv
+
+# Ignore local duckdb files for persistence
+*.duckdb
+*.duckdb.wal
